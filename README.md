@@ -300,8 +300,8 @@ $ mvn clean verify -Denvironment=staging
 
 ### To see Serenity test run report in Gitlab CI you can follow by link: 
 ### https://xt4k.gitlab.io/-/{repo-name}/-/jobs/{build-id}/artifacts/target/site/serenity/index.html
-##### where provided `build-id` can be taken from Gitlab CI https://gitlab.com/xt4k/si_gitlab-example/-/jobs
-https://xt4k.gitlab.io/-/si_gitlab-example/-/jobs/4796239101/artifacts/target/site/serenity/index.html
+##### where provided `build-id` can be taken from Gitlab CI https://gitlab.com/xt4k/Deu_example/-/jobs
+https://xt4k.gitlab.io/-/Deu_example/-/jobs/4801157680/artifacts/target/site/serenity/index.html
 
 ## Pipeline job build log is available by link https://gitlab.com/xt4k/-/jobs/{build-id}
-https://gitlab.com/xt4k/si_gitlab-example/-/jobs/4796239101
+https://gitlab.com/xt4k/Deu_example/-/jobs/4801157680
