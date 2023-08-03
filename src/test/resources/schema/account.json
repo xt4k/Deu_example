@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "allow_tracking": {
+      "type": "boolean"
+    },
+    "beta": {
+      "type": "boolean"
+    },
+    "country_of_residence": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "federated": {
+      "type": "boolean"
+    },
+    "id": {
+      "type": "string"
+    },
+    "identity_provider": {
+      "type": "null"
+    },
+    "last_login": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "sms_number": {
+      "type": "null"
+    },
+    "two_factor_authentication": {
+      "type": "boolean"
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "suspended_at": {
+      "type": "null"
+    },
+    "default_organization": {
+      "type": "null"
+    },
+    "default_team": {
+      "type": "null"
+    },
+    "delinquent_at": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "allow_tracking",
+    "beta",
+    "country_of_residence",
+    "email",
+    "id",
+    "name",
+    "last_login",
+    "created_at"
+  ]
+}

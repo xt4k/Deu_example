@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "brand": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "price": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "isPromo": {
+          "type": "boolean"
+        },
+        "promoDetails": {
+          "type": [
+            "boolean",
+            "string"
+          ]
+        },
+        "image": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "provider",
+        "title",
+        "url",
+        "price",
+        "unit",
+        "isPromo",
+        "promoDetails",
+        "image"
+      ]
+    }
+  ]
+}
